@@ -1,0 +1,63 @@
+# Compiled output
+/bin/
+/dist/
+
+# Node.js dependencies
+/node_modules/
+
+# Pulumi state and secrets
+.pulumi/
+*.pulumi.yaml.bak
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Temporary folders
+tmp/
+temp/
+
+# AWS credentials (if accidentally placed in project)
+.aws/
+aws-credentials.json
+
+# Pulumi configuration with sensitive data
+# Note: Pulumi.*.yaml files with non-sensitive config can be committed
+# Uncomment the line below if your config contains secrets
+# Pulumi.*.yaml
