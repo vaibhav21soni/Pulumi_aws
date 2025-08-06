@@ -56,7 +56,7 @@ temp/
 # AWS credentials (if accidentally placed in project)
 .aws/
 aws-credentials.json
-
+package-lock.json
 # Pulumi configuration with sensitive data
 # Note: Pulumi.*.yaml files with non-sensitive config can be committed
 # Uncomment the line below if your config contains secrets
